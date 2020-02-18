@@ -7,7 +7,8 @@
     "ios": "react-native run-ios",
     "start": "react-native start",
     "test": "jest",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "postinstall": "remotedev-debugger — hostname localhost — port 5678 — injectserver"
   },
   "dependencies": {
     "react": "16.9.0",
@@ -29,6 +30,10 @@
     "redux-logger": "^3.0.6",
     "remote-redux-devtools": "^0.5.16",
     "remotedev-rn-debugger": "^0.8.4"
+  },
+  "remotedev": {
+    "hostname": "localhost",
+    "port": 5678
   },
   "jest": {
     "preset": "react-native"
