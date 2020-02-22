@@ -1,7 +1,7 @@
 
 import React, { Component } from 'react';
 import { View } from 'react-native';
-import { Header, CryptoContainer } from './src/components';
+import { Header, CryptoContainer } from './src/Components';
 import { Provider } from 'react-redux';
 import Store from './src/Store';
 

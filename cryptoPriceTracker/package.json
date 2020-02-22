@@ -11,6 +11,7 @@
     "postinstall": "remotedev-debugger — hostname localhost — port 5678 — injectserver"
   },
   "dependencies": {
+    "axios": "^0.19.2",
     "react": "16.9.0",
     "react-native": "0.61.5",
     "react-redux": "^7.2.0",
