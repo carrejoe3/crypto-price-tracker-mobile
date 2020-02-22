@@ -1,26 +1,26 @@
-import React from "react";
-import { View, Text, StyleSheet } from 'react-native';
+import React from 'react'
+import { View, Text, StyleSheet } from 'react-native'
 
 const Header = () => {
-    return (
-        <View style={ headerContainer }>
-            <Text style={ header }>Cryptocurrency Price Tracker</Text>
-        </View>
-    )
+  return (
+    <View style={ headerContainer }>
+      <Text style={ header }>Cryptocurrency Price Tracker</Text>
+    </View>
+  )
 }
 
 const styles = StyleSheet.create({
-	headerContainer: {
-		display: 'flex',
-		marginTop: 55,
-		alignItems: 'center'
-	},
-	header: {
-		fontWeight: 'bold',
-		fontSize: 20
-	}
+  headerContainer: {
+    display: 'flex',
+    marginTop: 55,
+    alignItems: 'center'
+  },
+  header: {
+    fontWeight: 'bold',
+    fontSize: 20
+  }
 })
 
-const { headerContainer, header } = styles;
+const { headerContainer, header } = styles
 
-export default Header;
+export default Header
